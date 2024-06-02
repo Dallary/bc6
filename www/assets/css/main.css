@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* центрируем содержимое по горизонтали */
+    align-items: center; /* центрируем содержимое по вертикали */
+    height: 300px; /* задаем высоту блока, чтобы он занял всю высоту viewport */
+    width: 100%; /* задаем ширину блока, чтобы он занял всю ширину viewport */
+    margin: 0 auto; /* центрируем блок по горизонтали */
+
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+body {
+
+    line-height: 1.5;
+    background-image: url('https://i.pinimg.com/originals/0d/55/0e/0d550e5083253535e974cca0c140241a.jpg');
+    justify-content: center;
+    color: #85C992;
+    font-family: "DM Sans", sans-serif;
+}
+
+a {
+    color: #85C992;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+p {
+
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.list {
+    align-items: center;
+    margin: 10px 30px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 425px;
+    background-color: #4F4F4F;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(153, 153, 153, 0.25);
+    padding: 0.75rem;
+
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,196 @@
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+
+.error {
+    color: red;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.none {
+    display: none;
+}
+
+.logout {
+    color: #b7625c;
+}
+
+.form {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 425px;
+    background-color: #A2FBB3;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(153, 153, 153, 0.25);
+    padding: 0.75rem;
+}
+
+
+
+.action {
+    margin-top: 2rem;
+}
+
+.action-button {
+    padding: 10px;
+    border: unset;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.25rem;
+    width: 100%;
+    font-weight: 500;
+    background-color: #85C992;
+
+    color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(153, 153, 153, 0.25);
+    padding: 0.5rem;
+
+}
+
+.action-button:focus {
+    outline: 0;
+}
+
+@media screen and (min-width: 40em) {
+    .form .field.half {
+        width: calc(50% - 1px);
+    }
+}
+
+
+
+.form .label {
+    color: black;
+    padding-top: 0;
+    padding-left: 0;
+    letter-spacing: 0.025em;
+    font-size: 1.125em;
+    line-height: 1.25;
+    position: relative;
+    z-index: 100;
+}
+
+.form .checkbox-input+label {
+
+    line-height: normal;
+    width: 100%;
+    box-sizing: border-box;
+    background: #85C992;
+    color: #ffffff9a;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(153, 153, 153, 0.25);
+    padding: 0.5rem;
+}
+
+
+
+
+.form .option-input,
+.form .checkbox-input {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 5px;
+    position: absolute;
+    width: 1px;
+
+}
+
+.form .option-input+label,
+.form .checkbox-input+label {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.form .option-input:focus+label,
+.form .checkbox-input:focus+label,
+.form .option-input:active+label,
+.form .checkbox-input:active+label {
+    color: #ffffff2f;
+}
+
+.form .option-input:checked+label,
+.form .checkbox-input:checked+label {
+    color: white;
+}
+
+.form .checkboxes,
+.form .options {
+    padding: 0;
+    margin: 1;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.form .checkbox,
+.form .option {
+    float: left;
+    margin: 1px;
+}
+
+.form .option-input {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 5px;
+    position: absolute;
+    width: 1px;
+}
+
+.form .option-input+label {
+    display: inline-block;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    line-height: normal;
+    width: 100%;
+    box-sizing: border-box;
+    background: #85C992;
+    color: #ffffff2f;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(153, 153, 153, 0.25);
+    padding: 0.5rem;
+}
+
+.form .option-input:focus+label,
+.form .option-input:active+label {
+    color: #ffffff2f;
+}
+
+.form .option-input:checked+label {
+    color: white;
+}
